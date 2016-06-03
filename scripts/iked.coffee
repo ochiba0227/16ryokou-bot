@@ -17,3 +17,9 @@ module.exports = (robot) ->
           "海水浴ができる場所は少し遠いです。でも行ってみるのもいいですね！",
           "海は宿の目の前です！！でも絶対に落ちないでくださいね！？"
       ]
+  robot.hear /^@16ryokou-bot.*企画.*/i, (msg) ->
+      username = msg.message.user.name
+      msg.send [
+          "http://articleimage.nicoblomaga.jp/image/12/2009/9/d/9d7b95b075aea42eaf73e19a63c571dfbe9948101247475643.jpg",
+          "http://livedoor.blogimg.jp/jin115/imgs/2/5/25789f1f.png"
+      ]
