@@ -5,6 +5,7 @@
   "author": "16shinsotsu",
   "description": "A simple helpful robot for your Company",
   "dependencies": {
+    "forever": "^0.15.2",
     "hubot": "^2.19.0",
     "hubot-diagnostics": "0.0.1",
     "hubot-google-images": "^0.2.6",
